@@ -2,14 +2,16 @@
   "name": "@erc-5725/interface",
   "version": "1.0.0",
   "description": "The Solidity interface of ERC-5725.",
+  "main": "index.js",
   "files": [
     "./IERC5725.sol",
-    "./IERC5725.json"
+    "./artifacts/contracts/IERC5725.sol/IERC5725.json"
   ],
   "scripts": {
     "compile": "hardhat compile",
-    "prepublish": "npm run compile && node ./prepare.js",
-    "pack": "npm pack",
+    "build": "npm run compile && node ./prepare.js",
+    "prepublishOnly": "npm run build",
+    "npm-pack": "npm pack",
     "test": "mocha"
   },
   "repository": {
