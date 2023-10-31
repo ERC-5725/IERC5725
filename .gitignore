@@ -1,3 +1,11 @@
+# ERC-5725
+/IERC5725.sol
+/IERC5725.json
+
+# Hardhat
+artifacts/
+cache/
+
 # Logs
 logs
 *.log
