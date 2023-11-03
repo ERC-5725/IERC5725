@@ -1,15 +1,15 @@
-# ERC-5725 Interface
+# ERC-5725 Interfaces
 
 The Solidity interface of ERC-5725.
 
 ## Install
 
 ```bash
-npm install @erc-5725/interface
+npm install @erc-5725/interfaces
 ```
 
 ```bash
-yarn add @erc-5725/interface
+yarn add @erc-5725/interfaces
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ With Solidity:
 // SPDX-License-Identifier: CC0-1.0
 pragma solidity ^0.8.0;
 
-import {IERC5725} from "@erc-5725/interface/IERC5725.sol";
+import {IERC5725} from "@erc-5725/interfaces/IERC5725.sol";
 
 contract ERC5725 is IERC5725, ERC721 {
     ...
